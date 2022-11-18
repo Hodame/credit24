@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Credit24</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">	
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__nav">
+						<div class="header__logo"><p>Credit24</p></div>
+						<div class="header__list">
+							<li><p>Партнеры</p></li>
+							<li><p>Схема работы</p></li>
+							<li><p>Отзывы</p></li>
+							<li><p>Вопросы - ответы</p> </li>
+							<li><p>Кредитование</p></li>
+						</div>
+						<list class="header__languages">
+							<li class="header__ru">RU</li>
+							<li class="header__ua">UA</li>
+						</list>
+						<div class="header__burger-menu">
+							<list class="header__languages-burger">
+								<li class="header__ru">RU</li>
+								<li class="header__ua">UA</li>
+							</list>
+							<div class="header__list-burger">
+								<li>Партнеры</li>
+								<li>Схема работы</li>
+								<li>Отзывы</li>
+								<li>Вопросы - ответы </li>
+								<li>Кредитование</li>
+							</div>
+							<ul class="header__numbers">
+								<li>(050) 837-23-25</li>
+								<li>(096) 052-78-75</li>
+								<li>(044) 585-59-66</li>
+							</ul>
+							<div class="header__document">Договора и лицензии</div>
+							<div class="header__map">
+								<p>Киев, бульв. Леси Украинки, 26</p>
+								<span>Смотреть на карте</span>
+							</div>
+							
+						</div>
+						
+						<div class="header__burger-toggle">
+							<div class="header__burger">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+							<div class="header__cross">
+								<span></span>
+								<span></span>
+							</div>
+							
+						</div>
+						
+					</div>
+					<div class="header__content">
+						<div class="header__text">
+							<div class="header__subtitle">Онлайн. Без проверок! </div>
+							<div class="header__title">Кредит от 1000 до 250 000 грн</div>
+							<div class="header__statistic-list">
+								<li><span>18</span> <p>Минимальный возраст заемщика</p></li>
+								<li><span>99%</span> <p>Вероятность получения кредита</p></li>
+								<li><span>2:00</span> <p>Минуты на получение денег</p></li>
+							</div>
+							<button class="header__loan-btn  open-popup"><p>Оформить кредит</p></button>
+							<div class="header__zero-percent">Успей оставить заявку и получи кредит под 0% годовых</div>
+							<div class="header__timer-list">
+								<li id="timerDays"><span>00</span> <p>Дней</p></li>
+								<li id="timerHours"><span>00</span> <p>Часов</p></li>
+								<li id="timerMinutes"><span>00</span> <p>Минут</p></li>
+								<li id="timerSeconds"><span>00</span> <p>Секунд</p></li>
+							</div>
+							
+						</div>
+						<div class="header__calculator calculator">
+							<div class="calculator__body">
+								<div class="calculator__main-title">Кредитный калькулятор</div>
+								<div class="calculator__subtitle">Успейте оставить заявку до 29.09.22 Получите доп. скидку <span>9%</span> по ставке</div>
+								<form id="loan-form" class="calculator__form">
+									<div class="calculator__sum">
+										<input form="loan-form"	 type="number" name="Sum" id="">
+									</div>
+									<div class="calculator__date">
+										<div class="calculator__bg"></div>
+										<div class="calculator__date-selector"></div>
+										<div class="calculator__options">
+											<div class="calculator__option">
+												<input type="radio" id="3m" name="month">
+												<label for="3m">3</label>
+											</div>
+											<div class="calculator__option">
+												<input type="radio" id="6m" name="month">
+												<label for="6m">6</label>
+											</div>
+											<div class="calculator__option">
+												<input type="radio" id="12m" name="month">
+												<label for="12m">12</label>
+											</div>
+											<div class="calculator__option">
+												<input type="radio" id="24m" name="month">
+												<label for="24m">24</label>
+											</div>
+											<div class="calculator__option">
+												<input type="radio" id="36m" name="month">
+												<label for="36m">36</label>
+											</div>
+											<div class="calculator__option">
+												<input type="radio" id="48m" name="month">
+												<label for="48m">48</label>
+											</div>
+											<div class="calculator__option">
+												<input type="radio" id="60m" name="month">
+												<label for="60m">60</label>
+											</div>
+										</div>
+										
+									</div>
+									<div class="calculator__fake-elem">
+										<div class="calculator__title">Срок кредита, мес.</div>
+									</div>
+									
+								</form>
+								<div class="calculator__payment">Ежемесячный платеж</div>
+								<div class="calculator__if-payment">
+									<p>Если оставить заявку 28.09.22</p> <span>333 ₴</span>
+								</div>
+								<div class="calculator__if-payment-2 ">
+									<p>Если оставить заявку после 28.09.22</p> <span>530 ₴</span>
+								</div>
+								<input type="submit" form="loan-form" value="Оформить кредит" class="header__loan-btn calculator__loan-btn"></input>
+
+							</div>
+							
+						</div>
+						
+					</div>
+					<div class="header__decor"><img src="./image/header/image 152.png" alt=""></div>
+
+				</div>
+				
+			</div>
+			
+		</header>
+		<div class="popup-application">
+			<div class="popup-application__popup-bg"></div>
+			<div class="popup-application__body">
+				<div class="popup-application__close-btn">
+					<img src="./image/popup/cross.svg" alt="">
+				</div>
+				<div class="popup-application__title">Заявка на кредит</div>
+				<div class="popup-application__subtitle">Успейте оставить заявку до 29.09.22 Получите доп. скидку <span>9%</span> по ставке</div>
+				<form class="popup-application__form">
+					<div class="popup-application__name popup-application__input-box">
+						<input type="text" class="_req" name="UserName" id="UserName">
+					</div>
+					<div class="popup-application__phone-number popup-application__input-box">
+						<input type="tel" class="_req" name="phoneNumber" id="phoneNumber">
+					</div>
+					<div class="popup-application__code popup-application__input-box">
+						<input type="text" maxlength="11" class="_req _code" name="code" id="code">
+					</div>
+					<div class="popup-application__geo-fake">
+						<div class="popup-application__geo">
+							<div class="popup-application__bg"></div>
+							<div class="popup-application__area-selector _req _selector"></div>
+							<div class="popup-application__options">
+								<div class="popup-application__option">
+									<input type="radio" id="chercasi" name="city">
+									<label for="chercasi">Черкассы</label>
+								</div>
+								<div class="popup-application__option">
+									<input type="radio" id="chernigov" name="city">
+									<label for="chernigov">Чернигов</label>
+								</div>
+								<div class="popup-application__option">
+									<input type="radio" id="harkov" name="city">
+									<label for="harkov">Харьков</label>
+								</div>
+								<div class="popup-application__option">
+									<input type="radio" id="jitomir" name="city">
+									<label for="jitomir">Житомир</label>
+								</div>
+								<div class="popup-application__option">
+									<input type="radio" id="poltava" name="city">
+									<label for="poltava">Полтава</label>
+								</div>
+								<div class="popup-application__option">
+									<input type="radio" id="herson" name="city">
+									<label for="herson">Херсон</label>
+								</div>
+								<div class="popup-application__option">
+									<input type="radio" id="kiev" name="city">
+									<label for="kiev">Киев</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="popup-application__sum popup-application__input-box">
+						<input type="number"class="_req" name="SumOfMoney" id="SumOfMoney">
+					</div>
+					<div class="popup-application__error">Данные введены не верно</div>
+					<div class="popup-application__checkbox">
+						<input type="checkbox" class="_req" name="" id="">
+						<p>Я даю согласие на обработку персональных данных и соглашаюсь с <span>пользовательским соглашением</span></p>
+					</div>
+					<div class="popup-application__button-submit">
+						<input type="submit" name="submit" id="buttonSubmit" value="Отправить">
+					</div>
+				</form>
+				
+			</div>	
+		</div>
+		<div class="popup-eula">
+			<div class="popup-eula__bg"></div>
+			<div class="popup-eula__body">
+					<div class="popup-eula__close-btn">
+						<img src="./image/popup/cross.svg" alt="">
+					</div>
+					<div class="popup-eula__title">Пользовательское соглашение</div>
+					<div class="popup-eula__text">Заповнюючи дану анкету Клієнт підтверджує, що надана інформація є повною достовірною та погоджується, що компанія та її партнери, в тому числі банки, має (ють) право перевіряти інформацію, надану в даній анкеті, проводити такі перевірки, які компанія та її партнери, в тому числі банки, вважає необхідними. Зокрема, Клієнт уповноважує компанію та її партнерів, в тому числі банки, отримувати у роботодавця Клієнта необхідну інформацію для підтвердження фінансово-майнового становища Клієнта. Клієнт надає згоду компанії та її партнерам, в тому числі банкам, на надання в Бюро кредитних історій інформації про Клієнта, його зобов'язання за кредитним договором іншу інформацію (включаючи відомості, що мають банківську таємницю, які містяться в анкеті-заявці на отримання кредиту, а також документів, що надані для отримання кредиту), передбачену Законом України "Про організацію формування та обігу кредитних історій" №2704-IV від 23 червня 2009 року. Клієнт погоджується на отримання компанією та її партнерами, в тому числі банками інформації про кредитну історію Клієнта в бюро кредитних історій, обробку, використання передачу третім особам компанією та її партнерами, в тому числі банками персональних даних клієнта відповідно до Закону України "Про організацію формування та обігу кредитних історій" №2704-IV від 23 червня 2009 року. У випадку відмови компанією чи її партнерами, в тому числі банками у видачі кредиту Клієнт надає згоду строком на 5 років на обробку використання його персональних даних в цілях інформування про нові кредитні продукти банківські послуги, що надаються компанією та її партнерами, в тому числі банками. До персональних даних Клієнта , які підлягають обробці за даною заявою Клієнта, відноситься інформація про: прізвище, ім'я, по-батькові, дату та місце народження, адресу реєстрації та/або проживання, сімейний, соціальний та майновий стан, освіту, професію, прибутки, реквізити документу, що посвідчує особу Клієнта та будь-яка інші відомості, що допомагають встановити особу Клієнта та відомі компанії та її партнерам, в тому числі банкам на час обробки. Клієнт надає згоду компанії та її партнерам, в тому числі банкам на обробку, використання передачу третім особам своїх персональних даних відповідно до Закону України "Про захист персональних даних" № 2297-VI від 1 червня 2010 року. Я надаю Кредитору (майбутньому, потенційному Кредитору) свою згоду та право передавати, збирати, зберігати, використовувати, отримувати, поширювати, обробляти будь-яку інформацію про мене до/від/через ТОВ "Українське бюро кредитних історій", що знаходиться за адресою: 01001, м.Київ, вул.Грушевського, 1-д.</div>
+					
+			</div>
+				
+			
+		</div>
+		<div class="content">
+			<div class="partners">
+				<div class="partners__container">
+					<div class="partners__title">Наши партнеры </div>
+					<div class="partners__button-next">
+						<img src="./image/partners/arrow-next.svg" alt="">
+					</div>
+					<div class="partners__button-prev">
+						<img src="./image/partners/arrow-prev.svg" alt="">
+					</div>
+					<div class="partners__slider swiper">
+						<div class="partners__wrapper swiper-wrapper">
+							<div class="partners__slide swiper-slide">
+								<img src="./image/partners/1.svg" alt="">
+							</div>
+							<div class="partners__slide swiper-slide">
+								<img src="./image/partners/2.svg" alt="">
+							</div>
+							<div class="partners__slide swiper-slide">
+								<img src="./image/partners/3.svg" alt="">
+							</div>
+							<div class="partners__slide swiper-slide">
+								<img src="./image/partners/4.svg" alt="">
+							</div>
+							<div class="partners__slide swiper-slide">
+								<img src="./image/partners/5.svg" alt="">
+							</div>
+							<div class="partners__slide swiper-slide">
+								<img src="./image/partners/6.svg" alt="">
+							</div>
+							<div class="partners__slide swiper-slide">
+								<img src="./image/partners/1.svg" alt="">
+							</div>
+							<div class="partners__slide swiper-slide">
+								<img src="./image/partners/2.svg" alt="">
+							</div>
+							<div class="partners__slide swiper-slide">
+								<img src="./image/partners/3.svg" alt="">
+							</div>
+							
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			<div class="work">
+				<div class="work__container">
+					<div class="work__title title">Схема работы</div>
+					<div class="work__body">
+						<div class="work__list">
+							<li><span>01</span><p>Заполните онлайн-заявку на нашем сайте</p></li>
+							<li><span>02</span><p>Отвечаете на звонок в течение 10 минут</p></li>
+							<li><span>02</span><p>Получаете кредит или кредитную карту</p></li>
+						</div>
+						<div class="work__loan-btn header__loan-btn open-popup"><p>Оформить кредит</p></div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="whywe">
+				<div class="whywe__container">
+					<div class="whywe__body">
+						<div class="whywe__title title">Почему мы</div>
+						<div class="whywe__columns">
+							<div class="whywe__column">
+								<div class="whywe__icon"><img src="./image/whywe/dollar.png" alt=""></div>
+								<div class="whywe__text">Понад 1 млн. оформлених кредитів</div>
+							</div>
+							<div class="whywe__column">
+								<div class="whywe__icon"><img src="./image/whywe/star.png" alt=""></div>
+								<div class="whywe__text">Більше 15 років на ринку</div>
+							</div>
+							<div class="whywe__column">
+								<div class="whywe__icon"><img src="./image/whywe/lock.png" alt=""></div>
+								<div class="whywe__text">Безопасная сделка</div>
+							</div>
+							<div class="whywe__column">
+								<div class="whywe__icon"><img src="./image/whywe/bank.png" alt=""></div>
+								<div class="whywe__text">Провідні банки та МФО України</div>
+							</div>
+							
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			<div class="draw">
+				<div class="draw__container">
+					<div class="draw__body">
+						<div class="draw__text">
+							<div class="draw__title">Розыгрыш</div>
+							<div class="draw__subtitle">Заполни заявку и получи стильный смартфон или ноутбук</div>
+							<div class="draw__main-text">Eжемесячный розыгрыш 3х смартфонов Samsung Galaxy S9 и ноутбука yoga 720-15</div>
+							<div class="draw__button-1 header__loan-btn button open-popup"><p>Заполни заявку</p></div>
+						</div>
+						<div class="draw__image">
+							<img src="./image/draw/image.png" alt="">
+							<div class="draw__button-2 header__loan-btn button open-popup"><p>Заполни заявку</p></div>
+							
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			<div class="reviews">
+				<div class="reviews__container">
+					<div class="reviews__title title">Отзывы</div>
+					<div class="reviews__btn-prev"><img src="./image/partners/arrow-prev.svg" alt=""></div>
+					<div class="reviews__btn-next"><img src="./image/partners/arrow-next.svg" alt=""></div>
+					<div class="reviews__slider swiper">
+						<div class="reviews__wrapper swiper-wrapper">
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__person">
+									<div class="reviews__icon"><img src="./image/reviews/icon-2.png" alt=""></div>
+									<div class="reviews__naming">
+										<div class="reviews__name">Михаил Новиков </div>
+										<div class="reviews__geo">г.Харьков</div>
+										<div class="reviews__specialty">Программист</div>
+									</div>
+								</div>
+								<div class="reviews__review">
+									Таким образом сложившаяся структура организации играет важную роль в формировании существенных финансовых и административных условий.</div>	
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__person">
+									<div class="reviews__icon"><img src="./image/reviews/icon-1.png" alt=""></div>
+									<div class="reviews__naming">
+										<div class="reviews__name">Михаил Новиков </div>
+										<div class="reviews__geo">г.Харьков</div>
+										<div class="reviews__specialty">Менеджер</div>
+									</div>
+								</div>
+								<div class="reviews__review">
+									Взял кредит, хотя без доверия к банку. И очень удивлен, процентные ставки поразили.<br>Если придется еще взять, конечно сюда обращусь. Очень выгодно!
+								</div>
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__person">
+									<div class="reviews__icon"><img src="./image/reviews/icon-3.png" alt=""></div>
+									<div class="reviews__naming">
+										<div class="reviews__name">Михаил Новиков </div>
+										<div class="reviews__geo">г.Харьков</div>
+										<div class="reviews__specialty">Менеджер</div>
+									</div>
+								</div>
+								<div class="reviews__review">
+									Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности требуют определения и уточнения форм развития.
+								</div>
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__person">
+									<div class="reviews__icon"><img src="./image/reviews/icon-2.png" alt=""></div>
+									<div class="reviews__naming">
+										<div class="reviews__name">Михаил Новиков </div>
+										<div class="reviews__geo">г.Харьков</div>
+										<div class="reviews__specialty">Программист</div>
+									</div>
+								</div>
+								<div class="reviews__review">
+									Таким образом сложившаяся структура организации играет важную роль в формировании существенных финансовых и административных условий.</div>
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__person">
+									<div class="reviews__icon"><img src="./image/reviews/icon-1.png" alt=""></div>
+									<div class="reviews__naming">
+										<div class="reviews__name">Михаил Новиков </div>
+										<div class="reviews__geo">г.Харьков</div>
+										<div class="reviews__specialty">Менеджер</div>
+									</div>
+								</div>
+								<div class="reviews__review">
+									Взял кредит, хотя без доверия к банку. И очень удивлен, процентные ставки поразили.<br>Если придется еще взять, конечно сюда обращусь. Очень выгодно!
+								</div>
+							</div>
+						</div>
+							<div class="swiper-pagination"></div>
+					</div>
+					
+				</div>
+				
+			</div>
+			<div class="clients">
+				<div class="clients__container">
+					<div class="clients__body">
+						<div class="clients__text">
+							<div class="clients__numbers">250 000+</div>
+							<div class="clients__main-text">Клиетов воспользовались нашими услугами</div>
+							
+						</div>
+						<div class="clients__content">
+							<div class="clients__image">
+								<img src="./image/clients/1.png" alt="">
+							</div>
+							<div class="clients__image">
+								<img src="./image/clients/2.png" alt="">
+							</div>
+							<div class="clients__image">
+								<img src="./image/clients/3.png" alt="">
+							</div>
+							<div class="clients__image">
+								<img src="./image/clients/4.png" alt="">
+							</div>
+							<div class="clients__image">
+								<img src="./image/clients/5.png" alt="">
+							</div>
+							<div class="clients__image">
+								<img src="./image/clients/6.png" alt="">
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			<div class="terms">
+				<div class="terms__container">
+					<div class="terms__body">
+						<div class="terms__image">
+							<img src="./image/terms/girl.png" alt="">
+						</div>
+						<div class="terms__text">
+							<div class="terms__title">Условия кредитования</div>
+							<ul class="terms__list">
+								<li>Сумма кредита или кредитного лимита от 500 до 500 000 грн.</li>
+								<li>Все регионы Украины кроме АРК</li>
+								<li>Срок от 61 дня до 5 лет</li>
+								<li>Ставка от 0,01%</li>
+								<li>Возраст от 18 до 79 лет</li>
+								<li>Кредит на любые цели</li>
+								<li>Без залога и поручителей</li>
+								<li>Максимальная годовая процентная ставка, включающая ссудный процент, а также все остальные комиссии и расходы за год - не более 29,99%</li>
+							</ul>
+							<div class="terms__button header__loan-btn button"><p>Кредитный калькулятор</p></div>
+							
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			<div class="faq">
+				<div class="faq__container">
+					<div class="faq__body">
+						<div class="faq__title title">Вопросы-ответы</div>
+						<div class="faq__content">
+							<div class="faq__item">
+								<div class="faq__question">
+									<p>Вероятность получения кредитной карты или кредита?</p>
+									<img src="./image/faq/arrow.svg" alt="">
+								</div>
+								<div class="faq__answer">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								</div>
+								
+							</div>
+							<div class="faq__item">
+								<div class="faq__question">
+									<p>Как быстро я получу кредитную карту или кредит?</p>
+									<img src="./image/faq/arrow.svg" alt="">
+								</div>
+								<div class="faq__answer">
+									При оформлении кредитной карты или кредита через сервис credit24.org.ua Вы не оплачиваете НИКАКИХ дополнительных комиссий.
+								</div>
+							</div>
+							<div class="faq__item">
+								<div class="faq__question">
+									<p>Комиссия за оформление кредитной карты или кредита?</p>
+									<img src="./image/faq/arrow.svg" alt="">
+								</div>
+								<div class="faq__answer">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut est cum, necessitatibus magnam ea molestiae dicta delectus numquam dolore vel iure qui, nesciunt corporis suscipit eos sit maiores cumque eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates enim, iure iusto culpa tempora nisi sunt! Itaque, quam? Omnis sit reiciendis quibusdam. A temporibus eaque nihil odio ea illo quidem?
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias aut beatae debitis dolor corporis impedit autem, cum aliquam repudiandae error officiis quod obcaecati cumque voluptates consequuntur dicta minima reiciendis. Ab.
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore error aspernatur, est voluptas impedit quisquam provident, sunt quam odio, harum pariatur recusandae! Optio voluptate at aperiam eveniet voluptatibus, asperiores cupiditate!
+								</div>
+								
+							</div>
+							<div class="faq__item">
+								<div class="faq__question">
+									<p>На какие цели я могу использовать кредитные средства?</p>
+									<img src="./image/faq/arrow.svg" alt="">
+								</div>
+								<div class="faq__answer">
+									При оформлении кредитной карты или кредита через сервис credit24.org.ua Вы не оплачиваете НИКАКИХ дополнительных комиссий.
+								</div>
+								
+							</div>
+							<div class="faq__item">
+								<div class="faq__question">
+									<p>Какова окончательная процентная ставка по кредиту?</p>
+									<img src="./image/faq/arrow.svg" alt="">
+								</div>
+								<div class="faq__answer">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut est cum, necessitatibus magnam ea molestiae dicta delectus numquam dolore vel iure qui, nesciunt corporis suscipit eos sit maiores cumque eum?
+								</div>
+								
+							</div>
+							<div class="faq__item">
+								<div class="faq__question">
+									<p>Как минимизировать стоимость обслуживания кредита? Или как же вам добиться успехи скажите мне? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, sapiente?</p>
+									<img src="./image/faq/arrow.svg" alt="">
+								</div>
+								<div class="faq__answer">
+									При оформлении кредитной карты или кредита через сервис credit24.org.ua Вы не оплачиваете НИКАКИХ дополнительных комиссий.
+								</div>
+								
+							</div>
+						</div>
+						<div class="faq__more">Больше вопросов</div>
+						<div class="faq__less">Меньше вопросов</div>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__info">
+						<div class="footer__logo"><p>Credit24</p></div>
+						<div class="footer__numbers">
+							<div class="footer__num-list">
+								<li>(050) 837-23-25</li>
+								<li>(096) 052-78-75</li>
+								<li>(044) 585-59-66</li>
+							</div>
+							<ul class=" footer__languages">
+								<li class=" footer__ru">RU</li>
+								<li class=" footer__ua">UA</li>
+							</ul>
+						</div>
+						<div class="footer__list">
+							<li>Наши партнеры</li>
+							<li>Схема работы</li>
+							<li>Отзывы</li>
+							<li>Вопросы- ответы </li>
+							<li>Условия кредитования</li>
+						</div>
+					</div>
+					<ul class="footer__links">
+						<li>2022. Credit24. Все права защищены</li>
+						<li class="footer__document">Договора и лицензии</li>
+						<li class="footer__map">Смотреть на карте</li>
+						<li>Киев, бульв. Леси Украинки, 26</li>
+					</ul>
+					<div class="footer__button-top">
+						<img src="./image/footer/arrow.svg" alt="">
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="./js/jquery-3.6.0.min.js"></script>
+	<script src="./js/script.js"></script>
+</body>
+</html>
